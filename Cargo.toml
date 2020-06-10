@@ -1,0 +1,13 @@
+[package]
+name = "rup"
+version = "0.1.0"
+authors = ["Jancd <sergeychang@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.5"
+crossbeam = "0.7.3"
+lazy_static = "1.4.0"
+num_cpus = "1.13.0"
